@@ -16,7 +16,7 @@ spec:
         app: weather-app
     spec:
       containers:
-      - image: tamarshnirer/weather:1.0
+      - image: tamarshnirer/weather:latest
         name: weather
         ports:
           - containerPort: 5000
