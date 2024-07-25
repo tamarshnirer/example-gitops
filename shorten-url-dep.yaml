@@ -16,7 +16,7 @@ spec:
         app: shorten-url
     spec:
       containers:
-      - image: tamarshnirer/weather:1.0
+      - image: tamarshnirer/shorten-url:1.0.1
         name: shorten-url-container
         ports:
           - containerPort: 5000
