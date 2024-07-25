@@ -19,4 +19,4 @@ spec:
       - image: tamarshnirer/shorten-url:1.0.1
         name: shorten-url-container
         ports:
-          - containerPort: 5000
+          - containerPort: 8000

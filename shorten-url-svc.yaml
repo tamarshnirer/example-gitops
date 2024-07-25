@@ -8,9 +8,9 @@ metadata:
 spec:
   ports:
     - name: port
-      port: 5000 
+      port: 8000 
       protocol: TCP
-      targetPort: 5000
+      targetPort: 8000
       nodePort: 32450 
   selector:
     app: shorten-url
