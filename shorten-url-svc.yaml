@@ -3,8 +3,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: weather-app
-  name: weather-service
+    app: shorten-url
+  name: shorten-url-service
 spec:
   ports:
     - name: port
@@ -13,5 +13,11 @@ spec:
       targetPort: 5000
       nodePort: 32450 
   selector:
+<<<<<<< HEAD:weather-svc.yaml
     app: weather-app
   type: NodePort
+=======
+    app: shorten-url
+  type: NodePort
+
+>>>>>>> cf5498159d208a06091f6e1052d7f26757d3f709:shorten-url-svc.yaml
