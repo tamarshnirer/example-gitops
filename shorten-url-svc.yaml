@@ -13,7 +13,5 @@ spec:
       targetPort: 5000
       nodePort: 32450 
   selector:
-    app: weather-app
-  type: NodePort
     app: shorten-url
   type: NodePort
