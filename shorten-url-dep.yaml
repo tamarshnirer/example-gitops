@@ -16,7 +16,7 @@ spec:
         app: shorten-url
     spec:
       containers:
-      - image: tamarshnirer/shorten-url:1.0.7
+      - image: tamarshnirer/shorten-url:1.0.8
         name: shorten-url-container
         ports:
           - containerPort: 8000
